@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CareerOrien empowers your career journey with expert advice, mentorship, and skills training.">
+    <meta name="keywords" content="career guidance, mentorship, skills development, job opportunities, professional growth">
+    <meta name="author" content="CareerOrien Team">
+    <title>CareerOrien - Empower Your Career Journey</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" href="/images/logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="/" class="navbar-logo" aria-label="CareerOrien Home">
+                <img src="/images/logo.png" alt="CareerOrien Logo" class="logo-img"> CareerOrien
+            </a>
+            <ul class="navbar-links">
+                <li><a href="#about-us" aria-label="About Us">About Us</a></li>
+                <li><a href="#benefits" aria-label="Benefits">Benefits</a></li>
+                <li><a href="#how-it-works" aria-label="How It Works">How It Works</a></li>
+                <li><a href="#contact" aria-label="Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-container">
+            <h1>Empower Your Career Journey</h1>
+            <p>Discover your ideal career path, connect with mentors, and gain the skills to succeed.</p>
+            <button class="button" id="get-started-btn" aria-label="Get Started">Get Started</button>
+        </div>
+        <div class="hero-image">
+            <img src="/images/career_orientation.jpeg" alt="Person navigating career journey with guidance" class="responsive-img">
+        </div>
+    </header>
+
+    <!-- Modal for Get Started -->
+    <div id="signup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Start Your Journey</h2>
+            <form id="signup-form">
+                <input type="text" placeholder="Full Name" required aria-label="Full Name">
+                <input type="email" placeholder="Email Address" required aria-label="Email Address">
+                <button type="submit" class="button">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="about-us">
+        <h2>Our Mission</h2>
+        <p>
+            At CareerOrien, we’re dedicated to guiding students, job seekers, and professionals toward fulfilling careers with expert advice, mentorship, and skill-building resources.
+        </p>
+        <p>
+            Our vision is a world where everyone has the tools and connections to make informed career decisions and thrive professionally.
+        </p>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <h2>Why Choose CareerOrien?</h2>
+        <div class="benefits-grid">
+            <div class="benefit">
+                <img src="/images/career1.jpeg" alt="Expert Career Advice" class="responsive-img">
+                <h3>Expert Career Advice</h3>
+                <p>Personalized recommendations from industry pros and career coaches.</p>
+            </div>
+            <div class="benefit">
+                <img src="/images/career2.jpeg" alt="Mentorship & Networking" class="responsive-img">
+                <h3>Mentorship & Networking</h3>
+                <p>Connect with mentors and grow your professional network.</p>
+            </div>
+            <div class="benefit">
+                <img src="/images/career3.jpeg" alt="Skill Development" class="responsive-img">
+                <h3>Skill Development</h3>
+                <p>Boost employability with curated courses and resources.</p>
+            </div>
+            <div class="benefit">
+                <img src="/images/career4.jpeg" alt="Job Opportunities" class="responsive-img">
+                <h3>Job Opportunities</h3>
+                <p>Find internships and jobs tailored to your goals.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="how-it-works-grid">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Sign up to create your profile and unlock personalized resources.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Get matched with mentors and tailored career advice.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Build skills and explore job opportunities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <div class="contact-info">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:support@careerorien.com">support@careerorien.com</a></p>
+                <p>Phone: <a href="tel:+23512345678">+235 1234 5678</a></p>
+                <p>Address: N'Djamena, Chad</p>
+            </div>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+        <p class="footer-copy">&copy; 2025 CareerOrien. All rights reserved.</p>
+    </footer>
+
+    <!-- Font Awesome for Social Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
